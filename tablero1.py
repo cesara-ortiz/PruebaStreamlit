@@ -27,7 +27,8 @@ with steps[0]:
 # Agregar cosas a la segunda pestaña
 with steps[1]:
     if st.button('Podemos poner un botón', type = 'primary'):
-        st.write('usted presionó el botón')
+        j=int(input('Ingrese el numero de veces que quiere ver'))
+        st.write('usted presionó el botón jajaja')
     if st.button('Malumita chiquito'):
         st.image('images.jpg', width=30)
         st.image('images.jpg', width=30)
